@@ -1,0 +1,33 @@
+{
+  "name": "dsh-eni-unrestricted",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ENI 无限制：把提示词原文装进系统提示的 agent preset bundle，并把 profile 压成免确认 + 全盘可写。",
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "exports": {
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "prompt.txt",
+    "language-lock.txt",
+    "tools/build-patch.mjs",
+    "tools/verify.mjs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

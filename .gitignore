@@ -1,0 +1,24 @@
+# 依赖
+node_modules/
+pnpm-lock.yaml
+
+# 打包产物
+*.tgz
+*.zip
+
+# 编辑器的备份文件（改 prompt.txt 时容易顺手生成，别提交）
+*.bak
+*.bak-*
+*.orig
+*.rej
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# 本地草稿
+_section.txt
+_build.js
+_*.js
+_*.yml
+_*.txt

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "ENI Unrestricted",
+    "description": "An agent preset that injects the full ENI persona verbatim: direct delivery, type-routed output formats, injected tags treated as noise. Pick it from the mode dropdown in a new session."
+  }
+}

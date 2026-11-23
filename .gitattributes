@@ -1,0 +1,5 @@
+# prompt.txt / cordis.patch.yml 必须保持 LF：build-patch.mjs 会归一化，
+# 但如果 git 在 Windows 上把行尾转成 CRLF，diff 会整片变红、看不出真实改动。
+* text=auto eol=lf
+*.png binary
+*.ico binary
